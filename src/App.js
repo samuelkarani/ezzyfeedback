@@ -47,11 +47,18 @@ function App() {
             data-uk-grid
           >
             <div>
-              <h1 className="uk-margin">Qualified Feedback Instantly.</h1>
-              <h4 className="uk-margin">
-                A suite of services helping you gather feedback from your
-                audience.
-              </h4>
+              <h1 className="uk-margin">On-demand Feedback Instantly.</h1>
+              <h3 className="uk-margin">
+                A suite of services helping you gather and understand feedback
+                from your audience.
+              </h3>
+              <div className="uk-margin">
+                <ul className="uk-list uk-list-bullet uk-h4">
+                  <li>Meaningful, actionable & insightful feedback.</li>
+                  <li>For professional, academic and personal projects.</li>
+                  <li>Make better data-informed decisions.</li>
+                </ul>
+              </div>
             </div>
             <div>
               <img src={image} alt="ezzyfeedback" className="uk-height-large" />
@@ -62,7 +69,13 @@ function App() {
 
       <div className="uk-section uk-section-default">
         <div className="uk-container">
-          <div className="uk-child-width-1-3@m uk-grid-small" data-uk-grid>
+          <h3 className="uk-margin uk-text-center uk-text-uppercase">
+            How we achieve this
+          </h3>
+          <div
+            className="uk-margin uk-child-width-1-3@m uk-grid-small"
+            data-uk-grid
+          >
             {data.map((item) => (
               <div key={item.name}>
                 <Card {...item} />

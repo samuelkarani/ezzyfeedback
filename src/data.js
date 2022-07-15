@@ -7,7 +7,7 @@ const data = [
     logo: cliiick,
     title: "CliiiCK",
     description:
-      "Multimedia polling tool that helps you gather votes and feedback from any audience anywhere in the world.",
+      "Multimedia polling to help you gather votes and feedback from your audience or from our global consumer network.",
     link: "https://www.cliiick.com",
   },
   {
@@ -21,7 +21,7 @@ const data = [
     logo: contentfeedback,
     title: "ContentFeedback",
     description:
-      "Provides instant feedback for content creators to identify their target audience, optimize reach and increase monetization.",
+      "Provides feedback for content creators to identify their audience, increase engagement and grow monetization.",
     link: "https://www.contentfeedback.co",
   },
 ];

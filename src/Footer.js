@@ -65,13 +65,13 @@ export default function Footer() {
         </h6>
       </div>
       <div>
-        <div className="uk-margin-small">Subscribe to updates</div>
+        <h6 className="uk-margin-small">Subscribe to updates</h6>
         <Subscribe />
       </div>
       <div>
-        <ul className="uk-nav uk-nav-default">
+        <ul className="uk-list">
           {data.map((item) => (
-            <li key={item.title} className="uk-active">
+            <li key={item.title}>
               <a href={item.link} target="_blank" rel="noopener noreferrer">
                 <img
                   className="uk-border-circle"
@@ -80,7 +80,7 @@ export default function Footer() {
                   src={item.logo}
                   alt="logo"
                 />
-                {item.title}
+                <span className="uk-margin-small-left">{item.title}</span>
               </a>
             </li>
           ))}
